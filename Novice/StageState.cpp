@@ -9,6 +9,7 @@ void StageState::Update(char keys[], char preKeys[]) {
 	}
 }
 
+
 // 描画
 void StageState::Draw() {
 	Novice::ScreenPrintf(600, 350, "STAGE");
